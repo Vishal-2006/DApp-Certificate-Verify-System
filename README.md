@@ -66,35 +66,3 @@ This project is a decentralized application for issuing and verifying academic c
     ```
 
 5.  Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
-
-## How to Push to GitHub using Git Bash
-
-1.  **Initialize a new Git repository** in your project's root directory:
-    ```bash
-    git init
-    ```
-
-2.  **Add all files to the staging area:**
-    ```bash
-    git add .
-    ```
-
-3.  **Commit the files:**
-    ```bash
-    git commit -m "Initial commit"
-    ```
-
-4.  **Rename the default branch to `main`:**
-    ```bash
-    git branch -M main
-    ```
-
-5.  **Add your GitHub repository as the remote origin.** Replace `<your-github-repo-url>` with the URL of your repository on GitHub.
-    ```bash
-    git remote add origin <your-github-repo-url>
-    ```
-
-6.  **Push your code to GitHub:**
-    ```bash
-    git push -u origin main
-    ```
